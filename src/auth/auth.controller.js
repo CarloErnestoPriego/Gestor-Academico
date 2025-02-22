@@ -1,6 +1,6 @@
 import { hash, verify } from "argon2"
 import User from "../auth/auth.model.js"
-import {generateJWT} from "../helpers/generar-jwt.js"
+import {generateJWT} from "../helpers/generate-jwt.js"
 
 //FUNCION PARA REGISTRAR A LOS USUARIOS
 export const registrarUsuario = async (req, res) =>{

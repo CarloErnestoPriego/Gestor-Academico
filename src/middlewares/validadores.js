@@ -1,5 +1,5 @@
 import { body, check} from "express-validator"
-import { studentExists } from "../helpers/db-validators.js";
+import { studentExists } from "../helpers/db-validator.js";
 import { validarCampos } from "./validar-campos.js";
 import { deleteFileOnError } from "./delete-file-on-errors.js";
 
